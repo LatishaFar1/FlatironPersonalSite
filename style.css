@@ -1,0 +1,121 @@
+body, html{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.header{
+    background-color: white;
+    color: white;
+    letter-spacing: 0.2em;
+}
+.heading{
+    display: block;
+    float: left;
+    position: absolute;
+    left: 0;
+    line-height: normal;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+.Para1{
+    margin: 0 auto;
+    padding: 30px 0;
+    color: white;
+    font-size: 40px;
+    font-family: lucida sans regular;
+
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.row:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+#Para2{
+    color:black;
+    font-size: 25px;
+    margin: 15;
+    background-attachment: scroll, scroll, fixed;
+    background-color: lightblue;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+}
+
+#Para3{
+    background-color:white;
+    color:black;
+    background-attachment: scroll, scroll, fixed;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+}
+.name{
+    color: lightblue;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+}
+
+#container{
+    background-color: black;
+    border: 5px white;
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#MovieTVbutton{
+    margin: 50px auto; 
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: lightblue;
+}
+
+#result{
+    color: lightskyblue;
+    margin: 25px auto;
+    font-size: 25px;
+    
+}
+
+#footer{
+   background-color: lightcyan;
+   padding: 50px;
+   display: block;
+   position:relative;
+   bottom: 0;
+}
+#Email{
+    color: white;
+   font-size: 20px;
+}
+h3{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 25px;
+}
+script{
+    color: white;
+}
